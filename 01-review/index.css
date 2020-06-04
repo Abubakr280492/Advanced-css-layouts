@@ -1,0 +1,80 @@
+/* scroll for starting CSS and hints; instructions in JS window -> */
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: stretch; 
+  }
+
+  .wrapper > * {
+      margin-bottom: 1rem;
+  }
+  .a, .h{
+    flex-basis: 66%;
+  }
+  .c{
+      flex-basis: 100%;
+  }
+
+  .b, .d, .e, .f, .g{
+
+    flex-basis: 32%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* HINT: Three types of Grid syntax might include:
+  - line-based placement, like grid-column: 1 / 3; 
+  - use the "span" keyword, like grid-column: span 2;
+  - use grid area notation
+  
+  
+  
+  
+  
+  /* presentational CSS, no answers here -- ignore below this line */
+  div > div {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+  }
+  .a {
+    background-color: #FCB10F;
+  }
+  .b {
+    background-color: #801340;
+  }
+  .c {
+    background-color: #4D2975;
+  }
+  .d {
+    background-color: #244479;
+  }
+  .e {
+    background-color: #55B4AF;
+  }
+  .f {
+    background-color: rgba(128, 19, 64, 0.7); 
+  }
+  .g {
+    background-color: rgba(77, 41, 117, 0.5);
+  }
+  .h {
+    background-color: rgba(252, 177, 15, 0.7);
+  }
+  
+  
+  
+  
+  
+  
+  
