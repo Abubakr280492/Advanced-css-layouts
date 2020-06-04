@@ -14,14 +14,25 @@
 
 <body>
     <header>
+            <a href="#main-menu" 
+            class="menu-toggle"
+            id="main-menu-toggle">
+            <span class="fa fa-bars"></span>
+        </a>
         <div class="logo">
-            <h1><i class="fas fa-paint-brush"></i> LayOut Times</h1>
+            <h1><i class="fas fa-paint-brush"></i> Abdi Layout times </h1>
             <h2>Your Web Design Destination</h2>
         </div>
-        <nav>
+        <nav id="main-menu"
+        class="main-menu">
+        <a href="#main-menu-toggle"
+        class="menu-close">
+        <span class="fa fa-close"></span>
+    
+    </a>
             <ul>
                 <li><a href="#">CSS Resources</a></li>
-                <li><a href="#">Design</a></li>
+                 <li><a href="#">Design</a></li>
                 <li><a href="#">Videos</a></li>
                 <li><a href="#">Social Media</a></li>
                 <li><a href="#">Inspiration</a></li>
@@ -29,6 +40,8 @@
                 <li><a href="#">Top Talent</a></li>
             </ul>
         </nav>
+        <a href="#main-menu-toggle"
+        class="backdrop" hidden> </a>
     </header>
 
     <main>
